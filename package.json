@@ -1,0 +1,15 @@
+{
+  "name": "tokyo-nodefest-2018-slides",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "mdx-deck deck.mdx"
+  },
+  "keywords": [],
+  "author": "Jim Pick (@jimpick)",
+  "license": "MIT",
+  "devDependencies": {
+    "mdx-deck": "^1.7.10"
+  }
+}
