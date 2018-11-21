@@ -1,4 +1,4 @@
-export { default as theme } from 'mdx-deck/themes'
+export { default as theme } from './theme'
 import { Split, SplitRight } from 'mdx-deck/layouts'
 import { Image } from 'mdx-deck'
 
@@ -67,71 +67,6 @@ Dat + Automerge CRDT
 ---
 # Visualizations
 ---
-# Simple HTTP
-
-Client / Server
----
-(Show request + response)
----
-(Show request on map... Japan to Canada)
----
-# Non-trivial Web Page
-
-Normally, multiple resources are requested
-
-* Images
-* CSS
-* JavaScript
----
-(show simple source)
----
-(Show multiple request + response)
----
-(Show request on map... Japan to Canada)
----
-# Multiple "origins"
-
-Most web pages fetch from multiple web servers
----
-(show source with urls)
----
-(Show multiple request + response)
----
-(Show multiple request + response on map ... Japan to Canada + SFO)
----
-# CDNs
-
-Let's use a CDN so that content is located closer to the user
----
-# Many providers
-* Cloudflare
-* AWS CloudFront
-* Google, Microsoft, IBM, Alibaba
-* Akamai, Fastly
----
-# Developer friendly
-* Zeit
-* Netlify
----
-# Resource specific options
-* Google Fonts
-* Unpkg (npm modules)
----
-(Show content being published on a CDN)
----
-* (Show multiple requests Japan -> Japan)
-* (Show multiple requests Vancouver -> California)
-* (Show multiple requests Denmark -> Germany)
----
-# Typical Web Request
----
-(Show devtools loading a typical page)
----
-(Show traffic)
----
-# CDNs are great!
-* They work really well
----
 export default SplitRight
 
 ![Dog GIF](images/sheldon2.gif)
@@ -141,8 +76,6 @@ export default SplitRight
 Let's share this GIF...
 
 # ➡
-
-
 ---
 export default SplitRight
 
