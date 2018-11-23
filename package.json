@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "mdx-deck deck.mdx"
+    "start": "mdx-deck -p 11000 deck.mdx"
   },
   "keywords": [],
   "author": "Jim Pick (@jimpick)",
