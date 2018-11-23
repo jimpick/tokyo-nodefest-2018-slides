@@ -1,6 +1,6 @@
 export { default as theme } from './theme'
 import { Split, SplitRight } from 'mdx-deck/layouts'
-import { Image } from 'mdx-deck'
+import { Image, Appear } from 'mdx-deck'
 
 # Visualizing the Decentralized Web
 ---
@@ -97,14 +97,26 @@ export default SplitRight
  * Delta CRDTs
 ---
 # Visualizations
+
+<ul style={{textAlign: 'left'}}>
+  <Appear>
+    <li>Web 1998</li>
+    <li>Web 2018</li>
+    <li>WebTorrent</li>
+    <li>Dat</li>
+    <li>IPFS</li>
+    <li>Secure Scuttlebutt</li>
+  </Appear>
+</ul>
+
 ---
 export default SplitRight
 
 ![Dog GIF](images/sheldon2.gif)
 
-# Share and Publish
+# Web Publishing
 
-Let's share this GIF...
+Let's publish this GIF...
 
 # ➡
 ---
@@ -126,7 +138,7 @@ export default SplitRight
 ---
 export default SplitRight
 
-IMG: NSCA httpd
+<img src="images/ncsa-httpd.gif" width="70%" />
 
 # Web 1998
 
@@ -152,14 +164,14 @@ export default SplitRight
 ---
 export default SplitRight
 
-GIF: ftp
+<img src="images/ws_ftp32SCREEN-SHOT2.gif" width="90%" />
 
 # Web 1998
 
 * Physical hardware
 * NCSA httpd
 * HTML
-* ftp
+* FTP
 ---
 export default SplitRight
 
@@ -170,7 +182,122 @@ export default SplitRight
 * Physical hardware
 * NCSA httpd
 * HTML
-* ftp
+* FTP
 * Netscape
 ---
+## Web 1998 Traceroute
+
+<video src='images/traceroute-no-cdn.mp4' controls style={{width: '100%'}} />
+---
+# Web 2018
+---
+export default SplitRight
+
+```
+<html>
+  <head><title>Sheldon</title><head>
+  <body>
+  <h1>My Dog</h1>
+  <img src="dog.gif">
+</html>
+```
+
+# Web 2018
+
+HTML is the same!
+---
+# Web 2018
+
+What has changed?
+
+<ul style={{textAlign: 'left'}}>
+  <Appear>
+    <li>Cloud Services (eg. AWS, Azure)</li>
+    <li>CDNs (Akamai, Cloudflare, CloudFront)</li>
+    <li>Chrome, Safari, Edge, Firefox</li>
+    <li>SSL, Let's Encrypt</li>
+  </Appear>
+</ul>
+---
+# CDN
+
+CDN = Content Distribution Network
+
+"The Edge"
+---
+## CDN
+
+<img src='images/globe_apac.png' width="70%"/>
+---
+## CDN
+
+<img src='images/zeit-now-cdn-braziljs.gif' width="80%"/>
+---
+## Web 2018 Traceroute (CDN)
+
+<video src='images/traceroute-cdn.mp4' controls style={{width: '100%'}} />
+---
+# Web 2018
+
+[https://sheldon-cdn.jimpick.com/](https://sheldon-cdn.jimpick.com/)
+---
+# WebTorrent
+
+<img src="images/WebTorrent.png" width="50%" />
+---
+# WebTorrent
+
+Based on BitTorrent
+
+[Visualization](http://mg8.org/processing/bt.html)
+---
+<a href="https://webtorrent.io/">https://webtorrent.io/</a>
+---
+# WebTorrent
+
+Works on the web, based on WebRTC
+
+<img src="https://webtorrent.io/img/network.png" width="60%" />
+---
+<!-- Dat -->
+<img src="images/dat-data-logo.png" width="50%" />
+---
+# Dat
+
+<ul style={{textAlign: 'left'}}>
+  <Appear>
+    <li>designed for sharing science data</li>
+    <li>non-profit</li>
+    <li>similar to BitTorrent</li>
+    <li>can update data</li>
+  </Appear>
+</ul>
+---
+# Neuroscience
+
+"Schwann cell‐specific deletion of the endosomal
+PI 3‐kinase Vps34 leads to delayed radial sorting of
+axons, arrested myelination, and abnormal ErbB2‐ErbB3
+tyrosine kinase signaling"
+---
+### Beaker Browser
+
+<video src='images/beaker-science.mp4' controls style={{width: '90%'}} />
+---
+### Dat Swarm
+
+<video src='images/dat-swarm.mp4' controls style={{width: '70%'}} />
+---
+<!-- IPFS -->
+<img src="images/ipfs.png" width="50%" />
+---
+# IPFS
+---
+## Secure Scuttlebutt
+<img src="images/hermies.png" width="50%" />
+---
+# ありがとう！！
+
+@jimpick
+
 
